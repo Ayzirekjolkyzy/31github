@@ -1,1 +1,1 @@
-# 31github/LeetCode
+# 31github
