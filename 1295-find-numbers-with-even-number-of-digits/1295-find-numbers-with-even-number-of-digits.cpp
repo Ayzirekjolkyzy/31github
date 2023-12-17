@@ -1,7 +1,7 @@
 class Solution {
 public:
     int findNumbers(vector<int>& nums) {
-        int n, j=0, ret=0;
+       int ret=0;
         for(int i=0; i<nums.size(); i++) {
            if(nums[i]>9&&nums[i]<100) ret++;
             else if(nums[i]>999&&nums[i]<10000) ret++;
