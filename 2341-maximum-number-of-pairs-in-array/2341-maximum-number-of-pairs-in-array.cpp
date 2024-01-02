@@ -12,9 +12,7 @@ public:
             else { i++;  }
          }
        leftover=nums.size()-(2*pair);
-       
-        ans.push_back(pair); ans.push_back(leftover);
-        return ans;
+        return {pair, leftover};
         
     }
 };
